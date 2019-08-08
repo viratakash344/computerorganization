@@ -1,0 +1,42 @@
+$date
+	Thu Aug 01 16:28:44 2019
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module MUX_test $end
+$var wire 1 ! F $end
+$var reg 16 " A [15:0] $end
+$var reg 4 # S [3:0] $end
+$scope module M $end
+$var wire 16 $ in [15:0] $end
+$var wire 1 ! out $end
+$var wire 4 % sel [3:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx %
+bx $
+bx #
+bx "
+x!
+$end
+#3
+b0 #
+b0 %
+0!
+b11111100001010 "
+b11111100001010 $
+#6
+b1 #
+b1 %
+1!
+#9
+b1100 #
+b1100 %
+#12
